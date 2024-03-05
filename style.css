@@ -19,3 +19,116 @@ body {
   background-color: #bdc3c7;
 }
 
+.profil{
+	width: 550px;
+  height: 1220px;
+	position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color:#31363b;
+  box-shadow: black 2px 4px 10px; ;
+}
+
+.foto {
+  width: 550px;
+}
+
+.logo{
+  position: absolute;
+  left: 380px;
+  top: 310px;
+  background-color: #b92e81;
+  border-radius: 50%;
+
+}
+.obsah {
+  height: 1000px;
+	position: absolute;
+  top: 430px;
+  margin-left: 40px;
+
+}
+
+.jmeno {
+  position: relative;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.obsah p{
+  color: #bdc3c7;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-top: 35px;
+  margin-right: 15px;
+  padding-right: 20px;
+
+}
+
+.odkazy {
+  padding-left:0;
+  padding-top: 40px;
+}
+.odkazy a {
+  color:#bdc3c7;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+.odkazy li {
+  
+  display: inline-block;
+  text-align: center;
+  
+}
+.portfolio a{
+  position: absolute;
+  bottom: 80px;
+  width:550px;
+  height: 80px;
+  border-top:2px solid #3f464d;
+  border-bottom:2px solid #3f464d; 
+  padding-top: 20px;
+}
+.portfolio a:hover, a:focus, a:active{
+  background-color: #e74c3c;
+}
+.facebook a{
+  position: absolute;
+  bottom:0px;
+  width: 275px;
+  height: 80px;
+  padding-top: 20px;
+  border-right:2px solid #3f464d;
+
+}
+.facebook a:hover, a:focus, a:active{
+  background-color: #3b5998;
+}
+.twitter a{
+  position: absolute;
+  bottom:0px;
+  height: 80px;
+  width: 275px;
+  right: 0;
+  padding-top: 20px;
+}
+
+.twitter a:hover, a:focus, a:active{
+  background-color: #1da1f2;
+}
+.menu a:focus, a:active
